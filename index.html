@@ -7,110 +7,102 @@
 
 <style>
 body {
-  margin: 0;
-  font-family: Arial;
-  background: linear-gradient(135deg,#0b0f1a,#1a2238);
-  color: white;
-  text-align: center;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: radial-gradient(circle at top, #1a1a2e, #0f0f1a);
+    color: white;
 }
 
-.section {
-  padding: 80px 20px;
+/* HERO /
+.hero {
+    text-align: center;
+    padding: 100px 20px;
 }
 
-.hero img {
-  width: 120px;
+.hero h1 {
+    font-size: 50px;
+    color: #ffd700;
 }
 
-h1 {
-  font-size: 48px;
-  color: #f5d27a;
+.hero p {
+    font-size: 20px;
+    opacity: 0.8;
 }
 
-p {
-  color: #ccc;
-}
-
-button {
-  padding: 12px 25px;
-  border-radius: 25px;
-  border: none;
-  margin: 10px;
-  font-weight: bold;
+.btn {
+    padding: 15px 30px;
+    border-radius: 30px;
+    border: none;
+    margin: 10px;
+    cursor: pointer;
+    font-weight: bold;
 }
 
 .primary {
-  background: gold;
-  color: black;
+    background: gold;
+    color: black;
 }
 
 .secondary {
-  background: transparent;
-  border: 1px solid gold;
-  color: gold;
+    background: transparent;
+    border: 1px solid gold;
+    color: gold;
+}
+
+/ FEATURES /
+.features {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features h2 {
+    font-size: 35px;
+    margin-bottom: 40px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
 }
 
 .card {
-  background: #111827;
-  padding: 20px;
-  margin: 10px;
-  border-radius: 12px;
+    background: #1f1f2e;
+    padding: 20px;
+    border-radius: 15px;
 }
 
-.flex {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+/ FOOTER */
+.footer {
+    text-align: center;
+    padding: 40px;
+    opacity: 0.6;
 }
 </style>
 </head>
 
 <body>
 
-<!-- HERO -->
-<div class="section hero">
-  <img src="logo.jpg" />
-  <h1>పక్కింటి</h1>
-  <h2>Rent Anything from your Neighbour in 15 Minutes</h2>
-  <p>Now live in Visakhapatnam</p>
-  <button class="primary">Join Early Access</button>
-  <button class="secondary">Earn Money</button>
-</div>
+<section class="hero">
+    <h1>పక్కింటి</h1>
+    <p>Rent anything from your neighbour in 15 minutes</p>
+    <button class="btn primary">Join Early Access</button>
+    <button class="btn secondary">Earn Money</button>
+</section>
 
-<!-- FEATURES -->
-<div class="section">
-  <h2>Why Pakkinti?</h2>
-  <div class="flex">
-    <div class="card">⚡ 15 Min Delivery</div>
-    <div class="card">💰 Earn from unused items</div>
-    <div class="card">🤝 Trusted neighbours</div>
-  </div>
-</div>
+<section class="features">
+    <h2>Why Pakkinti?</h2>
+    <div class="grid">
+        <div class="card">⚡ Instant Rentals</div>
+        <div class="card">💰 Earn from Idle Items</div>
+        <div class="card">🏠 Hyperlocal Community</div>
+        <div class="card">🔒 Safe & Verified</div>
+    </div>
+</section>
 
-<!-- HOW IT WORKS -->
-<div class="section">
-  <h2>How it Works</h2>
-  <div class="flex">
-    <div class="card">1. List Item</div>
-    <div class="card">2. Neighbour books</div>
-    <div class="card">3. Earn Money</div>
-  </div>
-</div>
-
-<!-- STATS -->
-<div class="section">
-  <h2>Our Impact</h2>
-  <div class="flex">
-    <div class="card">4,659 Users</div>
-    <div class="card">₹16Cr+ Savings</div>
-    <div class="card">4.9 Rating</div>
-  </div>
-</div>
-
-<!-- FOOTER -->
-<div class="section">
-  <p>© 2026 Pakkinti</p>
-</div>
+<section class="footer">
+    <p>© 2026 Pakkinti. All rights reserved.</p>
+</section>
 
 </body>
-</html>
+</
